@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/bg.xml" value="0.22" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/email.xml" value="0.182" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.236" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_android_black_24dp_white.xml" value="0.252" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.231" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2575" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_baseline_file_copy_24.xml" value="0.3155" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_baseline_filter_alt_24.xml" value="0.266" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.182" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.266" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_baseline_search_24_white.xml" value="0.252" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_buzz.xml" value="0.1495" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_finkl.xml" value="0.2615" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_girlsgeneration.xml" value="0.2615" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_launcher_background.xml" value="0.236" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_solo.xml" value="0.2615" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/drawable/ic_wannaone.xml" value="0.2615" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_deetail_ternak_kandangku.xml" value="0.33" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_detail_display_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_detail_kelahiran_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_detail_kematian_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_detail_kesehetan_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_detail_perawatan_kandangku.xml" value="0.25" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_detail_perkembangan_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_detail_ternak_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_foto.xml" value="0.55859375" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_ganti_password.xml" value="0.3416666666666667" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_history_notifku.xml" value="0.33" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_kandang.xml" value="0.3723958333333333" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_kandang_detail.xml" value="0.33" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_kandangku.xml" value="0.40875" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_list_display_kandangku.xml" value="0.5296875" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_list_kelahiran_kandangku.xml" value="0.5296875" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_list_kematian_kandangku.xml" value="0.5" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_list_kesehatan_kandangku.xml" value="0.55078125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_list_perawatan_kandangku.xml" value="0.55078125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_list_perkembangan_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_list_ternak_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_login.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_lupa_password.xml" value="0.36375" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_menu.xml" value="0.36375" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_menu_kandangku.xml" value="0.55859375" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_profil.xml" value="0.371875" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_saldoku.xml" value="0.55859375" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/activity_titip_angon.xml" value="0.5212378640776699" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_detail_saldo.xml" value="0.55859375" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_filter_kandang.xml" value="0.5" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_filter_peeriode.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_kandangku.xml" value="0.5" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_list_display.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_list_kandang.xml" value="0.55859375" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_list_kesehatan.xml" value="0.55078125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_list_perawatan.xml" value="0.55078125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_list_perkembangan.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_list_ternak.xml" value="0.5" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_notifkasi.xml" value="0.33" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_timeline_kandangku.xml" value="0.5578125" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/costum_verifikasi_email.xml" value="0.21481481481481482" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/notifkasi.xml" value="0.5" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/layout/progress.xml" value="0.28299643281807374" />
+        <entry key="..\:/KompoengDomba/app/src/main/res/xml/file_provider_paths.xml" value="0.28299643281807374" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

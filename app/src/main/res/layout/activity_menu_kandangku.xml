@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".view.login">
+
+    <carbon.widget.LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:carbon_cornerRadiusBottomEnd="25dp"
+            app:carbon_cornerRadiusBottomStart="25dp">
+
+            <carbon.widget.ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="24sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <carbon.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Menu Kandangku"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <carbon.widget.ImageView
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:background="@drawable/logo" />
+
+            <carbon.widget.LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <carbon.widget.LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <carbon.widget.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hai, "
+                        android:textAppearance="@style/carbon_TextAppearance.Body1"
+                        android:textColor="#605F5F"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <carbon.widget.TextView
+                        android:id="@+id/tv_nama_costumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IZZAN CODE"
+                        android:textAppearance="@style/carbon_TextAppearance.Body1"
+                        android:textColor="@color/orange"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </carbon.widget.LinearLayout>
+
+                <carbon.widget.TextView
+                    android:id="@+id/tv_kode_costumer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="REG 123456789000"
+                    android:textAppearance="@style/carbon_TextAppearance.Body1"
+                    android:textColor="#605F5F"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </carbon.widget.LinearLayout>
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <carbon.widget.LinearLayout
+                    android:id="@+id/ll_list_ternak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <carbon.widget.ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/image_8" />
+
+                    <carbon.widget.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="List Ternak"
+                        android:textColor="#68BD44"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </carbon.widget.LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <carbon.widget.LinearLayout
+                    android:id="@+id/ll_list_perawatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <carbon.widget.ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/image_9" />
+
+                    <carbon.widget.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Perawatan"
+                        android:textColor="#68BD44"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </carbon.widget.LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <carbon.widget.LinearLayout
+                    android:id="@+id/ll_list_kesehatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <carbon.widget.ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/image_10" />
+
+                    <carbon.widget.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Kesehatan"
+                        android:textColor="#68BD44"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </carbon.widget.LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <carbon.widget.LinearLayout
+                    android:id="@+id/ll_list_kelahiran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <carbon.widget.ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/vector_5" />
+
+                    <carbon.widget.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Kelahiran"
+                        android:textColor="#68BD44"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </carbon.widget.LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <carbon.widget.LinearLayout
+                    android:id="@+id/ll_list_kematian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <carbon.widget.ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/vector_6" />
+
+                    <carbon.widget.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Kematian"
+                        android:textColor="#68BD44"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </carbon.widget.LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <carbon.widget.LinearLayout
+                    android:id="@+id/ll_list_perkembangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <carbon.widget.ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/image_33" />
+
+                    <carbon.widget.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Perkembangan"
+                        android:textColor="#68BD44"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </carbon.widget.LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+                <carbon.widget.LinearLayout
+                    android:id="@+id/ll_list_display"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <carbon.widget.ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/image_11" />
+
+                    <carbon.widget.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Display"
+                        android:textColor="#68BD44"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </carbon.widget.LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp">
+
+            </androidx.cardview.widget.CardView>
+        </carbon.widget.LinearLayout>
+
+    </carbon.widget.LinearLayout>
+
+</carbon.widget.RelativeLayout>

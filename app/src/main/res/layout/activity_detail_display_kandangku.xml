@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".view.login">
+    <androidx.core.widget.NestedScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <carbon.widget.RelativeLayout
+                android:id="@+id/ll_foto"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <carbon.widget.ImageView
+                    android:id="@+id/iv_gambar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+
+                <carbon.widget.ImageView
+                    android:visibility="gone"
+                    android:id="@+id/iv_gambar_x"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/terjual" />
+            </carbon.widget.RelativeLayout>
+
+            <carbon.widget.LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <carbon.widget.TextView
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:text="RP.100.000.000.000"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    app:carbon_cornerRadiusTopEnd="15dp"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    app:carbon_cornerRadiusBottomEnd="15dp"
+                    android:id="@+id/tv_harga" />
+
+                <carbon.widget.TextView
+                    android:id="@+id/tv_kode_kambing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="kode kambing"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <carbon.widget.TextView
+                    android:id="@+id/tv_type_kambing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="kode kambing"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </carbon.widget.LinearLayout>
+            <carbon.widget.LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <carbon.widget.TextView
+                    android:layout_weight="2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Dan Deskripsi"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#FF922C"/>
+                <carbon.widget.LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_13" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_tanggal_lahir"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_12" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_umur"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_15" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_berat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                </carbon.widget.LinearLayout>
+                <carbon.widget.LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_2_1" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_tinggi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/vector" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_keturunan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_14" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_jenis_kelamin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                </carbon.widget.LinearLayout>
+                <carbon.widget.LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#D2EAC8"/>
+                <carbon.widget.TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ciri fisik"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+                <carbon.widget.TextView
+                    android:id="@+id/tv_keterangan"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </carbon.widget.LinearLayout>
+
+
+        </carbon.widget.LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

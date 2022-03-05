@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.izzancode.kompoengdomba">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KompoengDomba"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".view.titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_display_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_perkembangan_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_kematian_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_kelahiran_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_kesehetan_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_perawatan_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_ternak_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_display_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_kelahiran_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_kematian_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_kesehatan_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_perawatan_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_perkembangan_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_display_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_perkembangan_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_kematian_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_kelahiran_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_kesehetan_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_perawatan_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.detail_ternak_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_display_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_kelahiran_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_kematian_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_kesehatan_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_perawatan_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_perkembangan_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_ternak_titip_angon"
+            android:exported="false" />
+        <activity
+            android:name=".view.foto"
+            android:exported="false" />
+        <activity
+            android:name=".view.kandang_detail"
+            android:exported="false" />
+        <activity
+            android:name=".view.kandang"
+            android:exported="false" />
+        <activity
+            android:name=".view.history_notifku"
+            android:exported="false" />
+        <activity
+            android:name=".view.saldoku"
+            android:exported="false" />
+        <activity
+            android:name=".view.list_ternak_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.menu_kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.kandangku"
+            android:exported="false" />
+        <activity
+            android:name=".view.ganti_password"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+        <activity
+            android:name=".view.menu"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+        <activity
+            android:name=".view.login"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+        <activity
+            android:name=".view.lupa_password"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+        <activity
+            android:name=".view.profil"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

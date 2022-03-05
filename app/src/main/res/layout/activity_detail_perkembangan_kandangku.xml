@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".view.login">
+
+    <carbon.widget.LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:carbon_cornerRadiusBottomEnd="25dp"
+            app:carbon_cornerRadiusBottomStart="25dp">
+
+            <carbon.widget.ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="24sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <carbon.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Detail Perkembangan Ternak"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+            <carbon.widget.LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <carbon.widget.ImageView
+                    android:id="@+id/iv_gambar"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    app:carbon_cornerRadius="15dp" />
+
+                <carbon.widget.TextView
+                    android:id="@+id/tv_kode_kambing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="kode kambing"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <carbon.widget.TextView
+                    android:id="@+id/tv_type_kambing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="kode kambing"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+
+                <carbon.widget.LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_14" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_jenis_kelamin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_12" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_umur"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_15" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_berat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/image_2_1" />
+
+                        <carbon.widget.TextView
+                            android:id="@+id/tv_tinggi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </carbon.widget.LinearLayout>
+
+                </carbon.widget.LinearLayout>
+
+                <carbon.widget.TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Detail Perawatan"
+                    android:textAllCaps="true"
+                    android:textColor="@color/orange"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <carbon.widget.LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+                    <carbon.widget.LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <carbon.widget.TextView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Periode Perkembangan"/>
+                        <carbon.widget.LinearLayout
+                            android:id="@+id/ll_filter"
+                            android:padding="5dp"
+                            android:layout_marginLeft="5dp"
+                            app:carbon_cornerRadius="10dp"
+                            android:background="@color/colorPrimaryDark"
+                            android:elevation="2dp"
+                            android:layout_width="70dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <carbon.widget.TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cari"
+                                android:textColor="#fff"/>
+                            <carbon.widget.ImageView
+                                android:layout_width="17dp"
+                                android:layout_height="17dp"
+                                android:src="@drawable/ic_baseline_search_24_white"/>
+                        </carbon.widget.LinearLayout>
+                    </carbon.widget.LinearLayout>
+                    <carbon.widget.LinearLayout
+                        android:id="@+id/ll_urutkan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <carbon.widget.ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/image_20"/>
+                        <carbon.widget.TextView
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Urutkan"/>
+                    </carbon.widget.LinearLayout>
+                </carbon.widget.LinearLayout>
+                <carbon.widget.LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@color/orange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <carbon.widget.TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nomor"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:textColor="#fff" />
+                    <carbon.widget.TextView
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Keterangan"
+                        android:textColor="#fff" />
+
+                    <carbon.widget.TextView
+                        android:padding="5dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tanggal"
+                        android:gravity="center"
+                        android:textColor="#fff" />
+                </carbon.widget.LinearLayout>
+                <carbon.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none"/>
+            </carbon.widget.LinearLayout>
+        </carbon.widget.ScrollView>
+
+    </carbon.widget.LinearLayout>
+
+</carbon.widget.RelativeLayout>

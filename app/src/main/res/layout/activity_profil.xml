@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.profil">
+
+
+    <carbon.widget.ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/tampilan_app_1" />
+
+    <carbon.widget.LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:carbon_cornerRadiusBottomEnd="25dp"
+            app:carbon_cornerRadiusBottomStart="25dp">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="24sp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Profil"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </carbon.widget.LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:elevation="3dp"
+            android:src="@drawable/logo"
+            app:civ_circle_background_color="#fff" />
+
+        <carbon.widget.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="IZZAN CODE"
+            android:textSize="14sp"
+            android:id="@+id/tv_nama"
+            android:textStyle="bold" />
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="#EAFFE2"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp">
+
+                <carbon.widget.LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BIODATA"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <carbon.widget.TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="No Regristrasi"
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp"
+
+                            android:textStyle="bold" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="------"
+                            android:layout_weight="1"
+                            android:textColor="#5E5E5E"
+                            android:id="@+id/tv_no_reg"
+                            android:textSize="16sp" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <carbon.widget.TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="Tgl Bergabung"
+
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:id="@+id/tv_tgl_gabung"
+                            android:text="------"
+                            android:layout_weight="1"
+
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <carbon.widget.TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="NIP"
+                            android:textColor="#5E5E5E"
+
+                            android:textSize="16sp" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <carbon.widget.TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:id="@+id/tv_no_nip"
+                            android:text="------"
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <carbon.widget.TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="Telepon"
+
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#5E5E5E"
+
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <carbon.widget.TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="------"
+                            android:id="@+id/tv_telepon"
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <carbon.widget.TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:textColor="#5E5E5E"
+
+                            android:textSize="16sp" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp"
+
+                            android:textStyle="bold" />
+
+                        <carbon.widget.TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="------"
+                            android:textColor="#5E5E5E"
+                            android:id="@+id/tv_email"
+                            android:textSize="16sp" />
+                    </carbon.widget.LinearLayout>
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <carbon.widget.TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="Alamat Domisili"
+                            android:textColor="#5E5E5E"
+
+                            android:textSize="16sp" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : "
+                            android:textColor="#5E5E5E"
+
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <carbon.widget.TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:id="@+id/tv_alamat"
+                            android:text="------"
+                            android:textColor="#5E5E5E"
+                            android:textSize="16sp" />
+                    </carbon.widget.LinearLayout>
+                </carbon.widget.LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <carbon.widget.LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="-10dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#EAFFE2"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="2dp">
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            android:id="@+id/iv_ubah_ppassword"
+                            android:src="@drawable/image_37" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="Ubah Sandi"
+                            android:textColor="#68BD44"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </carbon.widget.LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#EAFFE2"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="2dp">
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            android:id="@+id/iv_ubah_foto"
+                            android:src="@drawable/image_36" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="Ganti Foto"
+                            android:textColor="#68BD44"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </carbon.widget.LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#EAFFE2"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="2dp">
+
+                    <carbon.widget.LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <carbon.widget.ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            android:id="@+id/iv_keluar"
+                            android:src="@drawable/image_35" />
+
+                        <carbon.widget.TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="Keluar"
+                            android:textColor="#68BD44"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </carbon.widget.LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </carbon.widget.LinearLayout>
+        </carbon.widget.LinearLayout>
+    </carbon.widget.LinearLayout>
+
+</RelativeLayout>
